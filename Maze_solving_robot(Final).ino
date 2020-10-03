@@ -285,7 +285,7 @@ void motor_control()
 float velocity,distance,sec_per_cm;
 void report()
 { 
-  distance=202;
+  distance=199;
   Motortime=millis()-Mt1;
   DUMPS("Time: ");
   DUMPS(Motortime);
